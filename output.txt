@@ -1,0 +1,27 @@
+D:\Week1-CoreProgramming>cd D:\Week1-CoreProgramming\Day1
+
+D:\Week1-CoreProgramming\Day1>cd ..
+
+D:\Week1-CoreProgramming>cd Day2
+
+D:\Week1-CoreProgramming\Day2>git init
+Initialized empty Git repository in D:/Week1-CoreProgramming/Day2/.git/
+
+D:\Week1-CoreProgramming\Day2>git remote add origin https://github.com/123codingmsk/Week1-CoreProgramming.git
+
+D:\Week1-CoreProgramming\Day2>git add .
+
+D:\Week1-CoreProgramming\Day2>git checkout --orphan Day2
+Switched to a new branch 'Day2'
+
+D:\Week1-CoreProgramming\Day2>git commit -m "day2 folder added"
+[Day2 (root-commit) 3eb1015] day2 folder added
+ 81 files changed, 921 insertions(+)
+ create mode 100644 Level-1/Bonus.class
+ create mode 100644 Level-1/Bonus.java
+ create mode 100644 Level-1/CanVote.class
+
+
+D:\Week1-CoreProgramming\Day2>git branch -M Day2
+
+D:\Week1-CoreProgramming\Day2>git push origin Day2
