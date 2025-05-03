@@ -1,6 +1,6 @@
 public class ExceptionPropMethods {
 
-    public static void method1(){
+    public static void method1() throws ArithmeticException{
         int num1 = 20;
         int num2 = 0;
         System.out.println(num1/num2);
